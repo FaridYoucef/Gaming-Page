@@ -6,8 +6,8 @@ const Hero = () => {
     <div className='hero'>
         <div className='hero-content'>
             <h1>Play & Compete in your Favorite Game with Player WorldWide </h1>
-            <p>Join your Fellow Players and have Fun</p>
-            <button>Play Now</button>
+            <p>Join your Fellow Player and have Fun</p>
+            <button className='btn'>Play Now</button>
         </div>
 
     </div>
