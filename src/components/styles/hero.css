@@ -1,0 +1,10 @@
+.hero {
+    padding: 200px;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: auto;
+}
+

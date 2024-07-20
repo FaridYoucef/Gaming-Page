@@ -2,8 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0  20px;
+    padding: 10px;
     color: white;
+    background-color: #242424;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
 .left-side{
@@ -39,12 +43,13 @@
 
 .button-ct{
     display:flex ;
-    gap:10px;
+    gap:5px;
 }
 
 .button-ct button{
     display: block;
-    padding: 20px 15px;
+    padding: 15px;
+    margin-right: 15px;
     background-color: #3cb371;
     border: none;
     border-radius: 25px;
