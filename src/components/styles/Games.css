@@ -17,7 +17,7 @@
 .cards-container{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    gap: 10px;
+    gap: 15px;
     margin: auto;
     width: 85%; 
     align-items: center;
@@ -26,11 +26,15 @@
 .card {
     border-radius: 8px;
     overflow: hidden;
+    transition: transform 0.3s ;
+}
+
+.card:hover{
+    transform: scale(1.07);
 }
 
 .card img {
     width: auto;
-    height: auto;
-    max-width: auto;
-    max-height: auto;
+    height: 300px;
+    display: flex;
 }
