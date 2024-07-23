@@ -1,6 +1,7 @@
 import Games from './components/Games';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Tournaments from './components/Tournaments';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     < Header />
     < Hero />
     < Games />
+    < Tournaments />
     </>
   )
 }
