@@ -1,7 +1,13 @@
-section{
+.match-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 80%;
     margin: auto;
+}
+
+.match-tite h1{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0;
 }
