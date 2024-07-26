@@ -11,3 +11,24 @@
     color: white;
     margin-bottom: 0;
 }
+
+.match-menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.match-menu button{
+    width: 270px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #555252b6;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    cursor: pointer;
+    
+}

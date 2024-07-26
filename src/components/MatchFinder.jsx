@@ -12,11 +12,11 @@ const MatchFinder = () => {
     <div className="match-menu">
       <button>
         Games
-        <TiArrowSortedDown />
+        <TiArrowSortedDown className='drop-icon' />
       </button>
       <button>
         Platforms
-        <TiArrowSortedDown />
+        <TiArrowSortedDown className='drop-icon' />
       </button>
     </div>
   </section>
