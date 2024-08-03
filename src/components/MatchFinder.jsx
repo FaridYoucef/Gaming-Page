@@ -40,12 +40,42 @@ const MatchFinder = () => {
         <tr>
           <td>Fortnite</td>
           <td>Cross-Platform</td>
-          <td>$5.00</td>
+          <td className='entry-fee'>$10.00</td>
           <td>3vs3</td>
           <td>North America</td>
           <td>Advanced</td>
           <td>Available now</td>
-          <td><button>Join</button></td>
+          <td><button className='join-btn'>Join</button></td>
+        </tr>
+        <tr>
+          <td>Diable</td>
+          <td>Cross-Platform</td>
+          <td className='entry-fee'>$10.00</td>
+          <td>3vs3</td>
+          <td>North America</td>
+          <td>Advanced</td>
+          <td>Available now</td>
+          <td><button className='join-btn'>Join</button></td>
+        </tr>
+        <tr>
+          <td>Call of duty</td>
+          <td>Cross-Platform</td>
+          <td className='entry-fee'>$10.00</td>
+          <td>3vs3</td>
+          <td>North America</td>
+          <td>Advanced</td>
+          <td>Available now</td>
+          <td><button className='join-btn'>Join</button></td>
+        </tr>
+        <tr>
+          <td>Apex</td>
+          <td>Cross-Platform</td>
+          <td className='entry-fee'>$10.00</td>
+          <td>3vs3</td>
+          <td>North America</td>
+          <td>Advanced</td>
+          <td>Available now</td>
+          <td><button className='join-btn'>Join</button></td>
         </tr>
       </tbody>
     </table>
