@@ -3,8 +3,8 @@ import './styles/matchFinder.css';
 import { TiArrowSortedDown } from "react-icons/ti";
 const MatchFinder = () => {
   return (
-    <>
-  <section className='match-container'>
+    <section className='match-container'>
+  <div className='title-container'>
     <div className="match-tite">
       <h1>FIND A GAME</h1>
       <p>Pick a the game, the rule and the price</p>
@@ -21,7 +21,7 @@ const MatchFinder = () => {
       </button>
     </div>
 
-  </section>
+  </div>
   
     <table>
       <thead>
@@ -49,7 +49,7 @@ const MatchFinder = () => {
         </tr>
       </tbody>
     </table>
-    </>
+    </section>
     )
 }
 

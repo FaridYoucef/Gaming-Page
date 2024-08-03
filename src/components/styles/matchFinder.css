@@ -1,9 +1,11 @@
 .match-container{
+    max-width: 80%;
+    margin: auto;
+}
+.title-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 80%;
-    margin: auto;
 }
 
 .match-tite h1{
