@@ -1,0 +1,12 @@
+.player-container {
+    max-width: 80%;
+    margin: auto;
+}
+.player-title {
+    text-align: center;
+}
+
+.player-title h1 {
+    font-size: 3rem;
+    color: white;
+}
