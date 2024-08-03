@@ -3,6 +3,7 @@ import './styles/matchFinder.css';
 import { TiArrowSortedDown } from "react-icons/ti";
 const MatchFinder = () => {
   return (
+    <>
   <section className='match-container'>
     <div className="match-tite">
       <h1>FIND A GAME</h1>
@@ -19,8 +20,37 @@ const MatchFinder = () => {
         <TiArrowSortedDown className='drop-icon' />
       </button>
     </div>
+
   </section>
-  )
+  
+    <table>
+      <thead>
+        <tr>
+          <th>GAME</th>
+          <th>PLATFORM</th>
+          <th>ENTRY</th>
+          <th>TEAM SIZE</th>
+          <th>COMPETION</th>
+          <th>SKILL LEVEL</th>
+          <th>STARTING</th>
+          <th>ACCEPT</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Fortnite</td>
+          <td>Cross-Platform</td>
+          <td>$5.00</td>
+          <td>3vs3</td>
+          <td>North America</td>
+          <td>Advanced</td>
+          <td>Available now</td>
+          <td><button>Join</button></td>
+        </tr>
+      </tbody>
+    </table>
+    </>
+    )
 }
 
 export default MatchFinder
