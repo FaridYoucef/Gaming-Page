@@ -9,6 +9,7 @@
 .player-title h1 {
     font-size: 3rem;
     color: white;
+    margin-bottom: 1rem;
 }
 
 .palyer-card{
@@ -17,9 +18,16 @@
   height: 300px;
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
+  margin-top: 6rem;
+  position: relative;
 }
 .palyer-card img {
-    width: 130px;
-    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border-radius: 50% ;
+    border: 4px solid white;
+    position: absolute;
+    top: -50px;
 }

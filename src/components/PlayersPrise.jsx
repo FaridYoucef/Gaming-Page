@@ -12,6 +12,7 @@ function PlayersPrise() {
       <div className="payerCard-container">
         <div className="palyer-card">
           <img src="/assets/images/player.jpg" alt="player" />
+          <h1>Elgorn</h1>
           <p>1354 XP ganied 08/26-09/02</p>
           <p>+20 Xcoins</p>
           <button>View Profile</button>
