@@ -5,19 +5,20 @@ const News = () => {
   return (
     <div className="news-container">
       <div className="news-title">
-        <h1>LATEST</h1>
-        <h1>NEWS</h1>
+        <h2>LATEST</h2>
+        <h1 className="h1">NEWS</h1>
       </div>
+
       <div className="image-container">
         <div className="news1">
-          <h2>Call of Duty to go to Game Pass in gaming shake-up</h2>
-          <p>August 24</p>
-          <p>
-            Microsoft has torn up the rules of big video game launches by
-            announcing its most eagerly awaited new title - Call of Duty: Black
-            Ops 6 - will be available straight away to subscribers of its Game
-            Pass service...
-          </p>
+          <div className="new1-content">
+            <h3>COD to go to Game Pass in gaming shake-up</h3>
+            <p>August 24</p>
+            <p>
+              Microsoft has torn up the rules of big video game launches by
+              announcing its most eagerly awaited new title...
+            </p>
+          </div>
         </div>
         <div className="news2">
           <h2>

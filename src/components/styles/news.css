@@ -1,0 +1,14 @@
+.news-container{
+    width: 90%;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+.news-title{
+   margin-bottom: 3rem;
+}
+
+.h1 {
+    font-size: 40px;  
+    margin: -10px;
+}
