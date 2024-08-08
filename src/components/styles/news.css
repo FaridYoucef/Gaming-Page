@@ -1,5 +1,5 @@
 .news-container{
-    width: 90%;
+    width: 92%;
     margin: auto;
     padding-top: 2rem;
 }
@@ -11,4 +11,39 @@
 .h1 {
     font-size: 40px;  
     margin: -10px;
+}
+
+.image-container {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.news1{
+    position: relative;
+}
+
+.news1 img {
+    height: 300px;
+    max-width: 500px;
+    border-radius: 5px;
+}
+
+.new1-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 300px;
+    background-color: #141313c0;
+    z-index: 0;
+    padding-left: 8px;
+}
+
+.new1-content h5 {
+  color: #1cec2dfa;
+}
+
+.new1-content p {
+    font-size: small;
 }
