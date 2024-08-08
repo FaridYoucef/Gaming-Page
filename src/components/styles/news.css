@@ -16,7 +16,6 @@
 .image-container {
     display: flex;
     gap: 20px;
-    
 }
 
 .news1{
@@ -46,4 +45,16 @@
 
 .new1-content p {
     font-size: small;
+}
+
+.new1-content button{
+    background-color: #3cb371;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+    margin: 10px;
 }
