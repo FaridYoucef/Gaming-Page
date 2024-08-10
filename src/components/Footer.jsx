@@ -5,7 +5,7 @@ import { IoLogoDiscord } from "react-icons/io5";
 import { FaYoutube } from "react-icons/fa";
 import { FaTwitch } from "react-icons/fa6";
 
-
+import "./styles/footer.css";
 
 function Footer() {
   return (
@@ -38,12 +38,12 @@ function Footer() {
       </div>
 
       <div className="social-media">
-      <FaSquareFacebook />
-      <BsInstagram />
-      <FaSquareXTwitter />
-      <IoLogoDiscord />
-      <FaYoutube />
-      <FaTwitch />
+        <FaSquareFacebook />
+        <BsInstagram />
+        <FaSquareXTwitter />
+        <IoLogoDiscord />
+        <FaYoutube />
+        <FaTwitch />
       </div>
     </footer>
   );

@@ -1,0 +1,12 @@
+.footer-container{
+    padding: 20px 4rem;
+    background-color: #a59b9b1c;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+}
