@@ -1,3 +1,4 @@
+import Footer from './components/Footer';
 import Games from './components/Games';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -19,6 +20,7 @@ function App() {
     < MatchFinder />
     < PlayersPrise/>
     < News />
+    < Footer />
     </>
   )
 }
