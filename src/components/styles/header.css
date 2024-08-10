@@ -10,6 +10,11 @@
     z-index: 1000;
 }
 
+.hamburger{
+    font-size: 25px;
+    color: gray;
+    display: none;
+}
 .left-side{
     display: flex;
     align-items: center;
@@ -63,4 +68,32 @@
     background-color: rgba(104, 95, 95, 0.24);
     border-radius: 25px;
     color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        text-align: center;
+        height: auto;
+    }
+
+    .hamburger{
+        display: block;
+        margin-left: 5px;
+    }
+
+    .nav-menu{
+        display: none;
+    }
+
+    .button-ct .hd-btn{
+        display: none;
+    }
+
+    .logo{
+        font-size: 25px;
+    }
 }

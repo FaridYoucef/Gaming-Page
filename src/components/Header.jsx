@@ -1,9 +1,11 @@
 import React from 'react'
 import "./styles/header.css";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Header = () => {
   return (
     <header className='header'>
+      <GiHamburgerMenu className='hamburger'/>
         <div className='left-side'>
             <div className="logo">GamingMe</div>
             <nav>
@@ -19,7 +21,7 @@ const Header = () => {
    
         <div className='button-ct'>
                 <button>Sign In</button>
-                <button>Join Free</button>
+                <button className='hd-btn'>Join Free</button>
             </div>
     </header>
   )
