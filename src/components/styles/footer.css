@@ -10,3 +10,26 @@
     display: flex;
     flex-direction: column;
 }
+
+.footer-content a {
+    text-decoration: none;
+    color: white;
+    font-size: 11px ;
+    font-weight: bold;
+}
+
+.footer-content h5{
+    color: #a89e9e91;
+    margin-bottom: 0;
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icons {
+  font-size: 40px;
+  color: gray;
+}

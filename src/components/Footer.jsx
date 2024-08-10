@@ -38,12 +38,12 @@ function Footer() {
       </div>
 
       <div className="social-media">
-        <FaSquareFacebook />
-        <BsInstagram />
-        <FaSquareXTwitter />
-        <IoLogoDiscord />
-        <FaYoutube />
-        <FaTwitch />
+        <a href=""><FaSquareFacebook className="icons"/></a>
+        <a href=""><BsInstagram className="icons"/></a>
+        <a href=""><FaSquareXTwitter className="icons"/></a>
+        <a href=""><IoLogoDiscord className="icons"/></a>
+        <a href=""><FaYoutube className="icons"/></a>
+        <a href=""><FaTwitch className="icons"/></a>
       </div>
     </footer>
   );
