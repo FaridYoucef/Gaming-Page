@@ -17,3 +17,17 @@
 .tournements-text h1 {
     font-size: 40px;
 }
+
+/* Responsive Design for 768px screen */
+@media (max-width: 768px) {
+    .container {
+        padding: 30px;
+    }
+    .tournements-text h1 {
+        font-size: 30px;
+    }
+
+    .tournements-text p{
+        font-size: 15px;
+    }
+}
