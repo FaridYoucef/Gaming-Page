@@ -74,3 +74,24 @@
     }
 }
 
+/* Responsive Design for 480px screen */
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 0 5px; 
+    }
+
+    .hero h1 {
+        font-size: 1rem; 
+    }
+
+    .hero p {
+        font-size: 0.9rem; 
+    }
+
+    .hero .btn {
+        padding: 7px 12px; 
+        font-size: 0.9rem; 
+    }
+}
+
