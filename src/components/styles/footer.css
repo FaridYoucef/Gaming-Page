@@ -33,3 +33,25 @@
   font-size: 40px;
   color: gray;
 }
+
+/*  Responsive design midium screen*/
+@media (max-width: 768px) {
+    .footer-container{
+       display: block;
+       align-items: center;
+       text-align: center;
+    }
+
+    .social-media{
+        display: block;
+        text-align: center;
+    }
+}
+
+/*  Responsive design mobile screen*/
+@media (max-width: 480px) {
+    .social-media{
+        display: block;
+        text-align: center;
+    }
+}
