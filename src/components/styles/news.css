@@ -59,7 +59,7 @@
     margin: 10px;
 }
 
-/* Responsive Design */
+/* Responsive Design for tablette*/
 @media (max-width: 768px) {
     .news-title{
         text-align: center;     
@@ -77,5 +77,16 @@
 
     .news1 img { 
         min-width: 100%;
+    }
+}
+
+/* Responsive Design for mobile */
+@media (max-width: 480px) {
+
+    .news1 img { 
+        width:100%;
+    }
+    .new1-content button{
+       display: none;
     }
 }
