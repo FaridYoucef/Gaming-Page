@@ -58,3 +58,24 @@
     cursor: pointer;
     margin: 10px;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .news-title{
+        text-align: center;     
+    }
+
+    .news-title h1, h2 {
+        font-size: 1.5rem;
+        margin-bottom: 2px;
+    }
+
+    .image-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .news1 img { 
+        min-width: 100%;
+    }
+}
