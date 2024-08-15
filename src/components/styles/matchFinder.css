@@ -82,10 +82,13 @@ table th, table td {
         font-size: 25px;
     }
 
-   
-    
     .hidden {
         display: none;
     }
 }
 
+@media (max-width: 480px) {
+  .match-container{
+    font-size: 12px;
+  }
+}
