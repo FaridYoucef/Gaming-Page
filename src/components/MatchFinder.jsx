@@ -27,54 +27,66 @@ const MatchFinder = () => {
       <thead>
         <tr>
           <th>GAME</th>
-          <th>PLATFORM</th>
+          <th className='hidden'>PLATFORM</th>
           <th>ENTRY</th>
           <th>TEAM SIZE</th>
-          <th>COMPETION</th>
-          <th>SKILL LEVEL</th>
-          <th>STARTING</th>
+          <th className='hidden'>COMPETION</th>
+          <th className='hidden'>SKILL LEVEL</th>
+          <th className='hidden'>STARTING</th>
           <th>ACCEPT</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td>Fortnite</td>
-          <td>Cross-Platform</td>
+          <td  className='hidden'>Cross-Platform</td>
           <td className='entry-fee'>$10.00</td>
           <td>3vs3</td>
-          <td>North America</td>
-          <td>Advanced</td>
-          <td>Available now</td>
+          <td  className='hidden'>North America</td>
+          <td  className='hidden'>Advanced</td>
+          <td  className='hidden'>Available now</td>
           <td><button className='join-btn'>Join</button></td>
         </tr>
         <tr>
           <td>Diable</td>
-          <td>Cross-Platform</td>
+          <td
+          className='hidden'>Cross-Platform</td>
           <td className='entry-fee'>$10.00</td>
           <td>3vs3</td>
-          <td>North America</td>
-          <td>Advanced</td>
-          <td>Available now</td>
+          <td
+          className='hidden'>North America</td>
+          <td
+          className='hidden'>Advanced</td>
+          <td
+          className='hidden'>Available now</td>
           <td><button className='join-btn'>Join</button></td>
         </tr>
         <tr>
           <td>Call of duty</td>
-          <td>Cross-Platform</td>
+          <td
+          className='hidden'>Cross-Platform</td>
           <td className='entry-fee'>$10.00</td>
           <td>3vs3</td>
-          <td>North America</td>
-          <td>Advanced</td>
-          <td>Available now</td>
+          <td
+          className='hidden'>North America</td>
+          <td
+          className='hidden'>Advanced</td>
+          <td
+          className='hidden'>Available now</td>
           <td><button className='join-btn'>Join</button></td>
         </tr>
         <tr>
           <td>Apex</td>
-          <td>Cross-Platform</td>
+          <td
+          className='hidden'>Cross-Platform</td>
           <td className='entry-fee'>$10.00</td>
           <td>3vs3</td>
-          <td>North America</td>
-          <td>Advanced</td>
-          <td>Available now</td>
+          <td
+          className='hidden'>North America</td>
+          <td
+          className='hidden'>Advanced</td>
+          <td
+          className='hidden'>Available now</td>
           <td><button className='join-btn'>Join</button></td>
         </tr>
       </tbody>

@@ -6,12 +6,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+
 }
 
 .match-tite h1{
     font-size: 40px;
     color: white;
-    margin-bottom: 0;
+    margin-bottom: -15px;
 }
 
 .match-menu {
@@ -65,4 +67,25 @@ table th, table td {
     cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    
+    .title-container{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .match-menu{
+        width: 100%;
+    }
+
+    .match-tite h1{
+        font-size: 25px;
+    }
+
+   
+    
+    .hidden {
+        display: none;
+    }
+}
 
