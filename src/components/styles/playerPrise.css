@@ -1,5 +1,5 @@
 .player-container {
-    max-width: 90%;
+    padding: 10px;
     margin: auto;
     margin-bottom: 60px;
 }
@@ -31,7 +31,10 @@
   align-items: center;
   margin-top: 6rem;
   position: relative;
+}
 
+.player-info{
+    text-align: center;
 }
 
 .card-1{
@@ -66,3 +69,57 @@
     border-radius: 4px;
     margin-bottom: 30px; 
 }
+
+/*  Responsive design midium screen*/
+@media (max-width: 768px) {
+    .player-title {
+        text-align: start;
+    }
+    
+    .player-title h1 {
+        font-size: large;
+    }
+
+        .palyerCard-container {
+            flex-direction: column; 
+            gap: 10px;
+        }
+
+        .palyer-card {
+            flex-direction: row; 
+            align-items: center; 
+            justify-content: flex-start; 
+            height: auto; 
+            padding: 10px; 
+            width: 100%;
+            margin-top: 0;
+        }
+
+        .card-1 {
+            margin-top: 0; 
+        }
+
+        .palyer-card img {
+            position: static; 
+            width: 80px; 
+            height: 80px;
+            margin-right: 15px; 
+        }
+    
+        .palyer-card h1, .palyer-card p {
+            text-align: left;
+        }
+    
+        .palyer-card h1 {
+            font-size: 1.2rem;
+        }
+    
+        .palyer-card p {
+            font-size: 1rem;
+        }
+    
+        .palyer-card button {
+          display: none;
+        }
+    }
+    
