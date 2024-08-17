@@ -1,6 +1,5 @@
 
 import './styles/Games.css'
-import React from 'react'
 
 const Games = () => {
   return (
@@ -11,6 +10,7 @@ const Games = () => {
         </div>
         
         <div className='cards-container'>
+       
             <div className="card" >
                 <img src="/assets/images/fortnite-battle-royale.jpeg" alt="" />
             </div>
@@ -47,7 +47,6 @@ const Games = () => {
             <div className="card" >
                 <img src="/assets/images/pubg.jpeg" alt="" />
             </div>
-        
         </div>
     </section>
   )
