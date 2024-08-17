@@ -37,7 +37,7 @@ section{
 }
 
 .card img {
-    width: auto;
+    width: 100%;
     height: 300px;
     display: flex;
 }
@@ -47,6 +47,15 @@ section{
     .cards-container{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        gap:15px;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .cards-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         gap:15px;
     }
     
