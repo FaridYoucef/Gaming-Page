@@ -1,11 +1,11 @@
-.news-container{
+.news-container {
     width: 92%;
     margin: auto;
     padding-top: 2rem;
 }
 
-.news-title{
-   margin-bottom: 3rem;
+.news-title {
+    margin-bottom: 3rem;
 }
 
 .h1 {
@@ -16,38 +16,47 @@
 .image-container {
     display: flex;
     gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap; 
 }
 
-.news1{
+.news1 {
     position: relative;
+    flex: 1 1 calc(48% - 10px); 
+    max-width: 600px; 
 }
 
 .news1 img {
-    height: 300px;
-    max-width: 500px;
+    height: 350px; 
+    width: 100%; 
     border-radius: 5px;
 }
 
-.new1-content{
+.new1-content {
     position: absolute;
     top: 0;
     left: 0;
-    width: 40%;
-    height: 300px;
+    width: 50%;
+    height: 350px;
     background-color: #141313c0;
-    z-index: 0;
-    padding-left: 8px;
+    z-index: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
 }
 
 .new1-content h5 {
-  color: #1cec2dfa;
+    color: #1cec2dfa;
 }
 
 .new1-content p {
     font-size: small;
+    color: white;
+    margin-bottom: auto;
 }
 
-.new1-content button{
+.new1-content button {
     background-color: #3cb371;
     border: none;
     border-radius: 5px;
@@ -56,12 +65,13 @@
     font-weight: bold;
     font-size: larger;
     cursor: pointer;
-    margin: 10px;
+    align-self: flex-start; 
+    margin-top: auto; 
 }
 
-/* Responsive Design for tablette*/
+/* Responsive Design for tablet */
 @media (max-width: 768px) {
-    .news-title{
+    .news-title {
         text-align: center;     
     }
 
@@ -71,22 +81,31 @@
     }
 
     .image-container {
-        display: flex;
         flex-direction: column;
+        gap: 10px; 
     }
 
-    .news1 img { 
-        min-width: 100%;
+    .news1 {
+        flex: 1 1 100%;
+    }
+
+    .news1 img {
+        height: 300px;
+    }
+
+    .new1-content {
+        width: 100%; 
+        height: 300px;
     }
 }
 
 /* Responsive Design for mobile */
 @media (max-width: 480px) {
-
     .news1 img { 
-        width:100%;
+        width: 100%;
+        height: auto; 
     }
-    .new1-content button{
-       display: none;
+    .new1-content button {
+        display: none; 
     }
 }

@@ -9,10 +9,9 @@ import Tournaments from './components/Tournaments';
 
 
 function App() {
- 
 
   return (
-    <>
+    <div>
     < Header />
     < Hero />
     < Games />
@@ -21,7 +20,7 @@ function App() {
     < PlayersPrise/>
     < News />
     < Footer />
-    </>
+    </div>
   )
 }
 
